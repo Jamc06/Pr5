@@ -1,5 +1,5 @@
 package model;
-
+// Clase que representa un proceso de CPU
 public class CpuProcess extends Process {
 
     public CpuProcess(int pid, String name) {
