@@ -1,0 +1,26 @@
+package model;
+
+public abstract class Process {
+    private int pid;
+    private String name;
+
+    public Process(int pid, String name) {
+        this.pid = pid;
+        this.name = name;
+    }
+
+    public int getPid() {
+        return pid;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public abstract void execute();
+
+    @Override
+    public String toString() {
+        return "PID: " + pid + ", Name: " + name;
+    }
+}
