@@ -1,5 +1,6 @@
 package model;
 
+// Clase que representa un proceso de Input/Output
 public class IoProcess extends Process {
 
     public IoProcess(int pid, String name) {

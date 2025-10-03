@@ -37,7 +37,8 @@ public class App {
                     view.showProcesses(controller.getProcesses());
                     break;
                 case 0:
-                    view.showMessage("Saliendo del simulador...");
+                    view.showMessage("Saliendo del simulador");
+                    view.showMessage("Adios");
                     break;
                 default:
                     view.showMessage("Opción no valida . Intente de nuevo.");

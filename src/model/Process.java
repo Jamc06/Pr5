@@ -1,5 +1,8 @@
 package model;
 
+
+// Clase abstracta que representa un proceso genérico 
+
 public abstract class Process {
     private int pid;
     private String name;
@@ -17,7 +20,7 @@ public abstract class Process {
         return name;
     }
 
-    public abstract void execute();
+    public abstract void execute(); // Método abstracto que debe ser implementado por las subclases
 
     @Override
     public String toString() {

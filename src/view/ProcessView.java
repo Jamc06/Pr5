@@ -15,14 +15,14 @@ public class ProcessView {
         System.out.println("0. Exit");
     }
 
-    public void showProcesses(ArrayList<Process> processes) {
+    public void showProcesses(ArrayList<Process> processes) { // Muestra la lista de procesos
         System.out.println("Procesos Registrados:");
         for (Process p : processes) {
             System.out.println(p);
         }
     }
 
-    public void showMessage(String msg) {
+    public void showMessage(String msg) { // Muestra un mensaje simple
         System.out.println(msg);
     }
 }

@@ -1,5 +1,5 @@
 package model;
-
+// Clase que representa un proceso Daemon
 public class DaemonProcess extends Process {
 
     public DaemonProcess(int pid, String name) {
