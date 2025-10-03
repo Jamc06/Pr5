@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class ProcessView {
 
     public void showMenu() {
-        System.out.println("=== Process Simulator ===");
+        System.out.println(" Process Simulator ");
         System.out.println("1. Add CPU Process");
         System.out.println("2. Add I/O Process");
         System.out.println("3. Add Daemon Process");
@@ -16,7 +16,7 @@ public class ProcessView {
     }
 
     public void showProcesses(ArrayList<Process> processes) {
-        System.out.println("Registered processes:");
+        System.out.println("Procesos Registrados:");
         for (Process p : processes) {
             System.out.println(p);
         }
