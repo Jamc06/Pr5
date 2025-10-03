@@ -8,6 +8,6 @@ public class DaemonProcess extends Process {
 
     @Override
     public void execute() {
-        System.out.println(getName() + " (Daemon Process) is running in background...");
+       System.out.println(getName() + " (Proceso Daemon) se está ejecutando en segundo plano...");
     }
 }
